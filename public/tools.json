@@ -1,0 +1,68 @@
+[
+  {
+    "title": "AI Writing Pro",
+    "tag": "Best Seller",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "billing": "Mo",
+    "features": "Unlimited AI generations",
+    "features_2": "50+ writing templates",
+    "features_3": "Grammar checker",
+    "image": "/writing.png"
+  },
+  {
+    "title": "Design Templates Pack",
+    "tag": "Popular",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "billing": "One-Time",
+    "features": "2000+ templates",
+    "features_2": "Monthly updates",
+    "features_3": "Commercial license",
+    "image": "/design-tool.png"
+  },
+  {
+    "title": "Premium Stock Assets",
+    "tag": "New",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "billing": "Mo",
+    "features": "10M+ assets",
+    "features_2": "Commercial use",
+    "features_3": "No attribution",
+    "image": "/camera.png"
+  },
+  {
+    "title": "Automation Toolkit",
+    "tag": "Popular",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "billing": "Mo",
+    "features": "50+ automations",
+    "features_2": "API access",
+    "features_3": "Custom workflows",
+    "image": "/operation.png"
+  },
+  {
+    "title": "Resume Builder Pro",
+    "tag": "New",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "billing": "One-Time",
+    "features": "100+ templates",
+    "features_2": "ATS optimization",
+    "features_3": "Export to PDF",
+    "image": "/portfolio.png"
+  },
+  {
+    "title": "Social Media Content Kit",
+    "tag": "Best Seller",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "billing": "Mo",
+    "features": "5000+ assets",
+    "features_2": "Scheduler included",
+    "features_3": "Analytics dashboard",
+    "image": "/social-media.png"
+  }
+]

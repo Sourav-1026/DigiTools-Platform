@@ -1,7 +1,7 @@
 import React from "react";
 import { LuShoppingCart } from "react-icons/lu";
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -52,10 +52,13 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="flex items-center gap-3">
-          <button>
-            <LuShoppingCart />
-          </button>
+        <div className="flex items-center gap-6">
+          <div className="indicator">
+            <span className={` ${carts.length == 0 ? "" : "indicator-item badge badge-sm text-xs px-1 py-0"} `}>{carts.length == 0 ? null : carts.length}</span>
+            <button className="">
+              <LuShoppingCart className="w-7 h-7" />
+            </button>
+          </div>
           <p>Login</p>
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">Get Started</a>
         </div>

@@ -14,7 +14,7 @@ const GetStarted = () => {
             <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white h-8 w-8 rounded-full flex justify-center items-center">01</span>
           </div>
           <div className="bg-purple-200 w-30 h-30 rounded-full overflow-hidden flex justify-center items-center mx-auto mt-7">
-            <img src={userImage} alt="" srcset="" />
+            <img src={userImage} alt="" />
           </div>
           <h4 className="text-xl font-bold mt-4">Create Account</h4>
           <p className="text-gray-500 mt-4">Sign up for free in seconds. No credit card required to get started.</p>
@@ -24,7 +24,7 @@ const GetStarted = () => {
             <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white h-8 w-8 rounded-full flex justify-center items-center">02</span>
           </div>
           <div className="bg-purple-200 w-30 h-30 rounded-full overflow-hidden flex justify-center items-center mx-auto mt-7">
-            <img src={packageImage} alt="" srcset="" />
+            <img src={packageImage} alt="" />
           </div>
           <h4 className="text-xl font-bold mt-4">Choose Products</h4>
           <p className="text-gray-500 mt-4">Browse our catalog and select the tools that fit your needs.</p>
@@ -34,7 +34,7 @@ const GetStarted = () => {
             <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white h-8 w-8 rounded-full flex justify-center items-center">03</span>
           </div>
           <div className="bg-purple-200 w-30 h-30 rounded-full overflow-hidden flex justify-center items-center mx-auto mt-7">
-            <img className="h-fit w-fit " src={rocketImage} alt="" srcset="" />
+            <img className="h-fit w-fit " src={rocketImage} alt="" />
           </div>
           <h4 className="text-xl font-bold mt-4">Start Creating</h4>
           <p className="text-gray-500 mt-4">Download and start using your premium tools immediately.</p>
