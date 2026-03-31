@@ -4,6 +4,7 @@ import GetStarted from "./components/getStarted/GetStarted";
 import Navbar from "./components/navbar/Navbar";
 import Pricing from "./components/pricing/Pricing";
 import Rating from "./components/rating/Rating";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Rating />
       <GetStarted />
       <Pricing />
+      <Footer />
     </>
   );
 }
