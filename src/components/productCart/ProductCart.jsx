@@ -15,7 +15,7 @@ const ProductCart = ({ carts, setCarts }) => {
     toast.success("Item Removed!");
   };
   return (
-    <div className="px-10 md:px-20 lg:px-30 mt-10 mb-30 ">
+    <div className="px-3 md:px-20 lg:px-30 mt-10 mb-30 ">
       <div className="border border-gray-300 rounded-lg p-2 md:p-8">
         <h1 className="text-2xl font-bold">Your Cart</h1>
         {carts.length === 0 ? (
