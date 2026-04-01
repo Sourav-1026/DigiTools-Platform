@@ -49,7 +49,7 @@ const ProductCart = ({ carts, setCarts }) => {
                 <span className="text-xl font-bold">$ {totalprice}</span>
               </div>
               <button onClick={() => handlePayment()} className="w-full p-5 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
-                Proceed to CheckOut
+                Proceed to Checkout
               </button>
             </div>
           </>
