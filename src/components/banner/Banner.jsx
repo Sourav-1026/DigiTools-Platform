@@ -16,8 +16,9 @@ const Banner = () => {
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-bold">
-            Supercharge Your <br /> Digital Workflow
+          <h1 className="text-3xl md:text-5xl font-bold">Supercharge Your</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mt-0 md:mt-2">
+            <span className=" bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">Digital Workflow</span>
           </h1>
 
           <p className="text-gray-500 text-sm md:text-base">
