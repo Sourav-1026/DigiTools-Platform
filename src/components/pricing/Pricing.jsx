@@ -6,7 +6,7 @@ const Pricing = () => {
   return (
     <div className="p-10 md:p-20 lg:p-30">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-2">Simple, Transparent Pricing</h1>
+        <h1 className="text-2xl md:text-4xl font-bold mb-2">Simple, Transparent Pricing</h1>
         <p className="text-gray-600">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 mt-10">

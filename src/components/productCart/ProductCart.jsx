@@ -34,7 +34,7 @@ const ProductCart = ({ carts, setCarts }) => {
                     <div className="flex items-center gap-2">
                       <img src={item.image} alt="" />
                       <div className="">
-                        <h4 className="text-xl font-bold">{item.title}</h4>
+                        <h4 className="text-xs md:text-xl font-bold">{item.title}</h4>
                         <span>${item.price}</span>
                       </div>
                     </div>
