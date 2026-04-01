@@ -15,14 +15,14 @@ const ProductCart = ({ carts, setCarts }) => {
     toast.success("Item Removed!");
   };
   return (
-    <div className="px-30 mt-10 mb-30 ">
+    <div className="px-10 md:px-20 lg:px-30 mt-10 mb-30 ">
       <div className="border border-gray-300 rounded-lg p-8">
         <h1 className="text-2xl font-bold">Your Cart</h1>
         {carts.length === 0 ? (
           <div className="bg-base-200 rounded-lg p-5 mt-5">
             <p className="text-gray-400 text-xl font-bold">Your Cart Is Empty</p>
-            <div className="flex justify-center items-center ">
-              <BsCartFill className="w-32 h-32" />
+            <div className="flex justify-center items-center mt-6">
+              <BsCartFill className="w-16 h-16 md:w-32 md:h-32" />
             </div>
           </div>
         ) : (

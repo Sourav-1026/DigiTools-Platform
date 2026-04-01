@@ -54,12 +54,12 @@ const Navbar = ({ carts }) => {
       <div className="navbar-end">
         <div className="flex items-center gap-6">
           <div className="indicator">
-            <span className={` ${carts.length == 0 ? "" : "indicator-item badge badge-sm text-xs px-1 py-0"} `}>{carts.length == 0 ? null : carts.length}</span>
+            <span className={` ${carts.length == 0 ? "" : "indicator-item badge badge-error badge-sm text-xs px-1 py-0"} `}>{carts.length == 0 ? null : carts.length}</span>
             <button className="">
               <LuShoppingCart className="w-7 h-7" />
             </button>
           </div>
-          <p>Login</p>
+          <button className="hidden md:block">Login</button>
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">Get Started</a>
         </div>
       </div>

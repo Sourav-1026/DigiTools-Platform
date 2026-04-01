@@ -15,14 +15,21 @@ const Tabs = ({ isActive, setIsActive, carts }) => {
       </div>
 
       <div className="tabs tabs-box justify-center mt-5 md:mt-3 bg-transparent flex flex-col sm:flex-row gap-2 sm:gap-0 items-center">
-        <input onClick={() => setIsActive("products")} type="radio" name="my_tabs_1" className="tab w-full sm:w-40 rounded-full text-sm md:text-base" aria-label="Products" defaultChecked />
+        <input
+          onClick={() => setIsActive("products")}
+          type="radio"
+          name="my_tabs_1"
+          className={`tab w-full sm:w-40 rounded-full text-sm md:text-base ${isActive === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-gray-200 text-black"}`}
+          aria-label="Products"
+          defaultChecked
+        />
 
         <input
           onClick={() => setIsActive("cart")}
           type="radio"
           name="my_tabs_1"
-          className="tab w-full sm:w-40 rounded-full text-sm md:text-base"
-          aria-label={`Cart ${carts.length == 0 ? "" : carts.length}`}
+          className={`tab w-full sm:w-40 rounded-full text-sm md:text-base ${isActive === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-gray-200 text-black"}`}
+          aria-label={`Cart (${carts.length})`}
         />
       </div>
     </div>
