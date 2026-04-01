@@ -6,8 +6,8 @@ const PreDigitalTools = ({ getPromise, carts, setCarts }) => {
   const tools = use(getPromise);
 
   return (
-    <div className="container mx-auto px-30 mb-30">
-      <div className="grid grid-cols-3 gap-3 mt-3">
+    <div className="container mx-auto px-10 md:px-20 lg:px-30 mb-30">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3">
         {tools.map((tool, ind) => (
           <DigitalTool key={ind} tool={tool} carts={carts} setCarts={setCarts} />
         ))}

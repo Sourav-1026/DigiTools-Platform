@@ -4,12 +4,12 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const Pricing = () => {
   return (
-    <div className="p-30">
+    <div className="p-10 md:p-20 lg:p-30">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-2">Simple, Transparent Pricing</h1>
         <p className="text-gray-600">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
-      <div className="container mx-auto grid grid-cols-3 gap-2.5 mt-10">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 mt-10">
         <div className="border border-gray-200 rounded-md shadow-md p-2 space-y-2.5 bg-base-200">
           <h4 className="text-xl font-bold">Starter</h4>
           <p className="text-gray-400">Perfect for getting started</p>
