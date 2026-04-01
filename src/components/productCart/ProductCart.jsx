@@ -16,10 +16,10 @@ const ProductCart = ({ carts, setCarts }) => {
   };
   return (
     <div className="px-10 md:px-20 lg:px-30 mt-10 mb-30 ">
-      <div className="border border-gray-300 rounded-lg p-8">
+      <div className="border border-gray-300 rounded-lg p-2 md:p-8">
         <h1 className="text-2xl font-bold">Your Cart</h1>
         {carts.length === 0 ? (
-          <div className="bg-base-200 rounded-lg p-5 mt-5">
+          <div className="bg-base-200 rounded-lg p-1 md:p-5 mt-5">
             <p className="text-gray-400 text-xl font-bold">Your Cart Is Empty</p>
             <div className="flex justify-center items-center mt-6">
               <BsCartFill className="w-16 h-16 md:w-32 md:h-32" />
@@ -30,7 +30,7 @@ const ProductCart = ({ carts, setCarts }) => {
             <div className="space-y-3 mt-3">
               {carts.map((item) => (
                 <div key={item.tite}>
-                  <div className="flex justify-between items-center bg-base-200 border border-gray-300 shadow-md rounded-md p-5">
+                  <div className="flex justify-between items-center bg-base-200 border border-gray-300 shadow-md rounded-md p-1 md:p-5">
                     <div className="flex items-center gap-2">
                       <img src={item.image} alt="" />
                       <div className="">
