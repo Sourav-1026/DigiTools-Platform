@@ -10,7 +10,8 @@ const Pricing = () => {
         <p className="text-gray-600">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 mt-10">
-        <div className="border border-gray-200 rounded-md shadow-md p-2 space-y-2.5 bg-base-200">
+        {/* starter pack */}
+        <div className="flex flex-col border border-gray-200 rounded-md shadow-md p-2 space-y-2.5 bg-base-200">
           <h4 className="text-xl font-bold">Starter</h4>
           <p className="text-gray-400">Perfect for getting started</p>
           <p className="font-semibold">
@@ -33,9 +34,14 @@ const Pricing = () => {
               <FcCheckmark />1 project per month
             </li>
           </ul>
-          <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started Free</button>
+          <button className="mt-auto btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started Free</button>
         </div>
-        <div className="border border-gray-200 rounded-lg shadow-md p-2 space-y-2.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
+        {/* Pro pack */}
+        <div className="relative border border-gray-200 rounded-lg shadow-md p-2 space-y-2.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
+          <div className="absolute top-2 md:-top-3 left-1/2 -translate-x-1/2">
+            <span className="bg-[#FEF3C6] text-[#BB4D00] text-xs font-semibold px-3 py-1 rounded-full shadow">Most Popular</span>
+          </div>
+
           <h4 className="text-xl font-bold">Pro</h4>
           <p className="">Best for professionals</p>
           <p className="font-semibold">
@@ -71,6 +77,7 @@ const Pricing = () => {
             <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">Start Pro Trial</span>
           </button>
         </div>
+        {/* Enterprise pack */}
         <div className="border border-gray-200 rounded-md shadow-md p-2 space-y-2.5 bg-base-200">
           <h4 className="text-xl font-bold">Enterprise</h4>
           <p className="text-gray-400">For teams and businesses</p>
