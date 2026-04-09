@@ -21,3 +21,9 @@
 - 🛍️ Add to Cart – Users can easily add digital products to their cart with a single click.
 - 🗑️ Remove Items – Items can be removed from the cart anytime for better control.
 - 💳 Checkout Flow – Smooth checkout process to simulate a real shopping experience.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://digital-tools-1026.netlify.app/
